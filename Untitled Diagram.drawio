@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T14:12:13.708Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="o1IYFUWB3y9g3X8Mp5qp" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T14:29:35.922Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AXTEY-skYiMRDo978ycH" version="20.0.4" type="github">
   <diagram id="Paf4SMglVJaHUU8k5451" name="Page-1">
-    <mxGraphModel dx="1607" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2027" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VDNFKAa24KRTbSktk4pg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VDNFKAa24KRTbSktk4pg-10" target="VDNFKAa24KRTbSktk4pg-27">
+        <mxCell id="VDNFKAa24KRTbSktk4pg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VDNFKAa24KRTbSktk4pg-10" target="VDNFKAa24KRTbSktk4pg-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="30" width="30" height="60" as="geometry" />
+          <mxGeometry x="-160" y="30" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-13" value="Лендинг" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="180" width="400" height="290" as="geometry" />
@@ -206,6 +206,47 @@
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-85" value="Частые&#xa;вопросы" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-514" y="1260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-90" value="Демо модуль" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1990" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-92" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2040" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-93" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="VDNFKAa24KRTbSktk4pg-92" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-94" value="Object" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2050" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-96" value="Зарегистрирован" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="35" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-97" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="VDNFKAa24KRTbSktk4pg-96" parent="1" target="VDNFKAa24KRTbSktk4pg-27">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="180" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-98" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="VDNFKAa24KRTbSktk4pg-96" parent="1" target="VDNFKAa24KRTbSktk4pg-99">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="370" y="580" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-99" value="Куплен курс" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-100" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="VDNFKAa24KRTbSktk4pg-99" parent="1" target="VDNFKAa24KRTbSktk4pg-30">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-101" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.052;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="VDNFKAa24KRTbSktk4pg-99" parent="1" target="VDNFKAa24KRTbSktk4pg-45">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="180" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
