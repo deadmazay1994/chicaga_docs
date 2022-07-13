@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T14:05:57.831Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="GM5kQGgLRUHPjUcPE-R1" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T14:12:13.708Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="o1IYFUWB3y9g3X8Mp5qp" version="20.0.4" type="github">
   <diagram id="Paf4SMglVJaHUU8k5451" name="Page-1">
-    <mxGraphModel dx="2545" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1607" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
           <mxGeometry x="440" y="750" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-45" value="Полноценый&lt;br&gt;ЛК" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=40;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1130" width="560" height="630" as="geometry" />
+          <mxGeometry x="-570" y="800" width="870" height="760" as="geometry" />
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-48" value="Бронирование &#xa;или покупка" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="510" y="660" width="100" height="50" as="geometry" />
@@ -115,6 +115,24 @@
         <mxCell id="VDNFKAa24KRTbSktk4pg-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="VDNFKAa24KRTbSktk4pg-54" target="VDNFKAa24KRTbSktk4pg-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="VDNFKAa24KRTbSktk4pg-54" target="VDNFKAa24KRTbSktk4pg-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1195" />
+              <mxPoint x="130" y="1285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="VDNFKAa24KRTbSktk4pg-54" target="VDNFKAa24KRTbSktk4pg-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-590" y="1250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-270" y="1170" />
+              <mxPoint x="-540" y="1170" />
+              <mxPoint x="-540" y="1275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-54" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="-270" y="1190" width="200" height="10" as="geometry" />
         </mxCell>
@@ -143,7 +161,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VDNFKAa24KRTbSktk4pg-71" value="Настройки" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="VDNFKAa24KRTbSktk4pg-71" value="Модуль&#xa;пользователя" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-30" y="1270" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-73" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -171,8 +189,23 @@
         <mxCell id="VDNFKAa24KRTbSktk4pg-79" value="Главная&#xa;страница ЛК" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-180" y="1030" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VDNFKAa24KRTbSktk4pg-82" target="VDNFKAa24KRTbSktk4pg-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1305" />
+              <mxPoint x="110" y="1470" />
+              <mxPoint x="-70" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-82" value="Магазин" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="1280" width="100" height="50" as="geometry" />
+          <mxGeometry x="150" y="1270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VDNFKAa24KRTbSktk4pg-85" target="VDNFKAa24KRTbSktk4pg-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VDNFKAa24KRTbSktk4pg-85" value="Частые&#xa;вопросы" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-514" y="1260" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
