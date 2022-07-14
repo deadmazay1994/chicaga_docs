@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T12:57:03.955Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="M4N64Ogwr_aN6aqLcql8" version="20.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-14T13:12:26.714Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="N_4GNH1lBa0CfzpLu96p" version="20.1.1" type="github" pages="3">
   <diagram id="Paf4SMglVJaHUU8k5451" name="main">
-    <mxGraphModel dx="2142" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,7 +280,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="obaFsQiG788w7EemPo18" name="demo">
-    <mxGraphModel dx="3250" dy="12" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1754" dy="-158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,10 +539,13 @@
         <mxCell id="NFjPOgCxpLwmzIfGT4l--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NFjPOgCxpLwmzIfGT4l--8" target="NFjPOgCxpLwmzIfGT4l--12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NFjPOgCxpLwmzIfGT4l--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NFjPOgCxpLwmzIfGT4l--16" target="NFjPOgCxpLwmzIfGT4l--7">
+        <mxCell id="NFjPOgCxpLwmzIfGT4l--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PjaCwo9oTwF837Yga91m-1" target="NFjPOgCxpLwmzIfGT4l--7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NFjPOgCxpLwmzIfGT4l--16" value="Прохождение теста с сайта (но на платформе)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;container=0;" vertex="1" parent="1">
+        <mxCell id="PjaCwo9oTwF837Yga91m-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NFjPOgCxpLwmzIfGT4l--16" target="PjaCwo9oTwF837Yga91m-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NFjPOgCxpLwmzIfGT4l--16" value="Прохождение теста с сайта (на платформе)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;container=0;" vertex="1" parent="1">
           <mxGeometry x="665" y="2085" width="145" height="45" as="geometry" />
         </mxCell>
         <mxCell id="NFjPOgCxpLwmzIfGT4l--17" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NFjPOgCxpLwmzIfGT4l--12" target="NFjPOgCxpLwmzIfGT4l--18">
@@ -720,11 +723,14 @@
         <mxCell id="CQjsuLmOcmWQoi6hWvNS-2" value="Купить?" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;container=0;" vertex="1" parent="1">
           <mxGeometry x="533.25" y="2915" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PjaCwo9oTwF837Yga91m-1" value="Отправка результатов в crm" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;container=0;" vertex="1" parent="1">
+          <mxGeometry x="478" y="2082.5" width="145" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="wArPrawtkkXX3B5c_s2t" name="Register">
-    <mxGraphModel dx="1855" dy="2022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1275" dy="1390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
