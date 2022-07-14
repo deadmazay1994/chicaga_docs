@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T09:07:50.516Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iNQaNYcTGFo-TOUfRm6f" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T09:42:06.647Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PLvxDz1sc1wmGs4YMHWs" version="20.1.1" type="github">
   <diagram id="Paf4SMglVJaHUU8k5451" name="Page-1">
-    <mxGraphModel dx="1572" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2077" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,8 +152,13 @@
         <mxCell id="VDNFKAa24KRTbSktk4pg-64" value="Занятие" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-370" y="1350" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VDNFKAa24KRTbSktk4pg-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VDNFKAa24KRTbSktk4pg-67" target="VDNFKAa24KRTbSktk4pg-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="VDNFKAa24KRTbSktk4pg-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0.048;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VDNFKAa24KRTbSktk4pg-67" target="VDNFKAa24KRTbSktk4pg-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="1305" />
+              <mxPoint x="-240" y="1360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-67" value="Курс" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-220" y="1270" width="100" height="50" as="geometry" />
