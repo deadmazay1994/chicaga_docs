@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T11:17:02.345Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_nqE4MepIFbzfTysNmbz" version="20.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-14T11:19:26.322Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KMZKTCKpae8JLCXoULbl" version="20.1.1" type="github" pages="3">
   <diagram id="Paf4SMglVJaHUU8k5451" name="main">
-    <mxGraphModel dx="2527" dy="1853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,17 +143,19 @@
         <mxCell id="VDNFKAa24KRTbSktk4pg-59" value="Расписание&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-370" y="1260" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VDNFKAa24KRTbSktk4pg-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VDNFKAa24KRTbSktk4pg-64" target="VDNFKAa24KRTbSktk4pg-75" edge="1">
+        <mxCell id="VDNFKAa24KRTbSktk4pg-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;" parent="1" source="VDNFKAa24KRTbSktk4pg-64" target="VDNFKAa24KRTbSktk4pg-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VDNFKAa24KRTbSktk4pg-64" value="Занятие" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-370" y="1350" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VDNFKAa24KRTbSktk4pg-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0.048;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VDNFKAa24KRTbSktk4pg-67" target="VDNFKAa24KRTbSktk4pg-64" edge="1">
+        <mxCell id="VDNFKAa24KRTbSktk4pg-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;" parent="1" source="VDNFKAa24KRTbSktk4pg-67" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370" y="1360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-240" y="1305" />
-              <mxPoint x="-240" y="1360" />
+              <mxPoint x="-220" y="1330" />
+              <mxPoint x="-380" y="1330" />
+              <mxPoint x="-380" y="1360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -278,7 +280,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="obaFsQiG788w7EemPo18" name="demo">
-    <mxGraphModel dx="4227" dy="2538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2527" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
