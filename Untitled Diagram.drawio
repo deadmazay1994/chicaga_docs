@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T14:09:22.275Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-I5hpIWbXFtXHu0fWU4o" version="20.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-02T11:00:07.317Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oDh1sXQxkdQt_E7Xz-cl" version="20.2.0" type="github" pages="5">
   <diagram id="Paf4SMglVJaHUU8k5451" name="main">
-    <mxGraphModel dx="1847" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1607" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1106,11 +1106,64 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Nm-9NnhTXIMntEnPcW9Y" name="Page-5">
-    <mxGraphModel dx="1020" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="Nm-9NnhTXIMntEnPcW9Y" name="Интерфейсы">
+    <mxGraphModel dx="821" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--1" value="Курсы" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="240" height="390" as="geometry">
+            <mxRectangle x="400" y="600" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--2" value="Название: name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--3" value="Описание: description: HTML String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--7" value="Краткое описание: short_description: HTML String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--8" value="Изображение курса: cover: File" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--10" value="Продолжительность (мес): duration: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="130" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--16" value="Цена Basic: price :Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="156" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--15" value="Цена Standart:standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="182" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--14" value="Цена Premium:standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="208" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--13" value="Учитель курса: teacher_id : &lt;Teacher&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="234" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--11" value="Фотография учителя: teacher_photo : File" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="260" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--17" value="Статус (вкл/выкл): status: Bollean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="286" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--19" value="Публичный курс: public : Bollean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="312" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--18" value="Мини-курс: mini: Bollean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="338" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--4" value="Доступные уроки: lessons: [&lt;Lesson&gt;]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+          <mxGeometry y="364" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--23" value="&lt;font size=&quot;1&quot; color=&quot;#ff4f4f&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Легенда&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--26" value="Это ИНТЕРФЕЙСЫ, но не модели. Что это значит?&lt;br&gt;Данные поля должны присутствовать при:&lt;br&gt;получении, создании, изменении соответствующей модели&lt;br&gt;Каждый столбец - это поле&lt;br&gt;Первая часть столбца отделенная точкой с запятой - это человеческое название&lt;br&gt;Вторая часть - это название в итнерфейсе (при запросе)&lt;br&gt;Третья - это тип&lt;br&gt;Подробнее про тип:&lt;br&gt;Базовые типы пишутся без скобок&lt;br&gt;Реализация этих типов может быть разной. Например:&lt;br&gt;Number может быть как Int, так и TinyInt. Как реализовать тип зависит от конкретной ситтуации и остается на выбор бека&lt;br&gt;&lt;div style=&quot;&quot;&gt;Что такое [Type] - это означает коллекция или опросту массив&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Что такое &amp;lt;Type&amp;gt; - это какой-то кастомный тип. Например: &amp;lt;Lesson&amp;gt; - это тип отвечающий за уроки&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;и для него уже должны быть реализованы интерфейсы и модели&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="700" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
