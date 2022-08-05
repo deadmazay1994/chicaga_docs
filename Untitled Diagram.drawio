@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T16:46:12.960Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nyGHrnwxx_5PcRYsvdDv" version="20.2.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-05T08:53:21.615Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WaL7FK8tgp5ERvlY7bhR" version="20.2.2" type="github" pages="5">
   <diagram id="Paf4SMglVJaHUU8k5451" name="main">
     <mxGraphModel dx="1607" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1125,7 +1125,7 @@
         <mxCell id="KeCgLoi9tTGurpElV2I5-1" value="Краткое описание: short_description: HTML String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="78" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5qpn0ohKS0nJgUYrpIX--7" value="Уровень курса: lavel: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
+        <mxCell id="5qpn0ohKS0nJgUYrpIX--7" value="Уровень курса: level: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5qpn0ohKS0nJgUYrpIX--8" value="Изображение курса: cover: File" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
@@ -1134,19 +1134,19 @@
         <mxCell id="5qpn0ohKS0nJgUYrpIX--10" value="Продолжительность (мес): duration: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fiz7EugljvtSUD3EX7aH-1" value="Цена Basic: price :Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+        <mxCell id="fiz7EugljvtSUD3EX7aH-1" value="Цена Basic: price :Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5qpn0ohKS0nJgUYrpIX--16" value="Скидка Basic: sale_price :Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="208" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fiz7EugljvtSUD3EX7aH-2" value="Цена Standart: standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+        <mxCell id="fiz7EugljvtSUD3EX7aH-2" value="Цена Standart: standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="234" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5qpn0ohKS0nJgUYrpIX--15" value="Скидка Standart:sale_standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="260" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fiz7EugljvtSUD3EX7aH-3" value="Цена Premium:standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5qpn0ohKS0nJgUYrpIX--1">
+        <mxCell id="fiz7EugljvtSUD3EX7aH-3" value="Цена Premium:standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
           <mxGeometry y="286" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5qpn0ohKS0nJgUYrpIX--14" value="Скидка Premium:sale_standart_price: Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5qpn0ohKS0nJgUYrpIX--1" vertex="1">
